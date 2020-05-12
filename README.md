@@ -247,6 +247,8 @@ These schemas are known as subsampling systems and are expressed as a 3 part rat
 
 Common schemes used in modern codecs are: **4:4:4** *(no subsampling)*, **4:2:2, 4:1:1, 4:2:0, 4:1:0 and 3:1:1**.
 
+> You can follow some discussions [to learn more about Chroma Subsampling](https://github.com/leandromoreira/digital_video_introduction/issues?q=YCbCr).
+
 > **YCbCr 4:2:0 merge**
 >
 > Here's a merged piece of an image using YCbCr 4:2:0, notice that we only spend 12 bits per pixel.
@@ -267,6 +269,11 @@ Previously we had calculated that we needed [278GB of storage to keep a video fi
 > You can [check the YCbCr histogram with ffmpeg.](/encoding_pratical_examples.md#generates-yuv-histogram) This scene has a higher blue contribution, which is showed by the [histogram](https://en.wikipedia.org/wiki/Histogram).
 >
 > ![ycbcr color histogram](/i/yuv_histogram.png "ycbcr color histogram")
+
+### Color, luma, luminance, gama video review
+
+Watch this incredible video explaining what is luma and learn about luminance, gamma, and color.
+[![Analog Luma - A history and explanation of video](http://img.youtube.com/vi/Ymt47wXUDEU/0.jpg)](http://www.youtube.com/watch?v=Ymt47wXUDEU)
 
 ## Frame types
 
@@ -835,6 +842,14 @@ Books:
 * https://www.amazon.com/H-264-Advanced-Video-Compression-Standard/dp/0470516925
 * https://www.amazon.com/Practical-Guide-Video-Audio-Compression/dp/0240806301/ref=sr_1_3?s=books&ie=UTF8&qid=1486396914&sr=1-3&keywords=A+PRACTICAL+GUIDE+TO+VIDEO+AUDIO
 * https://www.amazon.com/Video-Encoding-Numbers-Eliminate-Guesswork/dp/0998453005/ref=sr_1_1?s=books&ie=UTF8&qid=1486396940&sr=1-1&keywords=jan+ozer
+
+Onboarding material:
+
+* https://github.com/Eyevinn/streaming-onboarding
+* https://howvideo.works/
+* https://www.aws.training/Details/eLearning?id=17775
+* https://www.aws.training/Details/eLearning?id=17887
+* https://www.aws.training/Details/Video?id=24750
 
 Bitstream Specifications:
 
